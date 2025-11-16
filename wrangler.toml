@@ -1,5 +1,5 @@
 name = "nano-banana-image-api"
-compatibility_date = "2025-11-17"
+compatibility_date = "2025-11-16"
 
 [[routers]]
 name = "nano-banana-router"
