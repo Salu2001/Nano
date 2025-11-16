@@ -1,0 +1,13 @@
+{
+  "name": "nano-banana-image-api",
+  "version": "1.0.0",
+  "description": "Image generation API for Cloudflare Workers",
+  "main": "worker.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.47.0"
+  }
+}
