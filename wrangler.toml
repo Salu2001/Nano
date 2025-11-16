@@ -1,10 +1,7 @@
 name = "nano-banana-image-api"
-compatibility_date = "2025-11-16"
+compatibility_date = "2025-11-17"
+main = "worker.js"
+compatibility_flags = ["nodejs_compat"]
 
-[[routers]]
-name = "nano-banana-router"
-type = "worker"
-entrypoint = "worker.js"
-
-[env.production.vars]
+[vars]
 # Add any environment variables here if needed
